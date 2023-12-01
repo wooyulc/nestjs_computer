@@ -12,7 +12,7 @@ export class ComputerController {
     @Get()
     run() {
         return [
-            this.cpuService.compute(1,3),
+            this.cpuService.compute(4,2),
             this.diskService.getData()
         ]
     }
